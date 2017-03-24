@@ -1,0 +1,21 @@
+PODS:
+  - A (2):
+    - B_Category
+    - Masonry
+  - B_Category (1):
+    - DispatchCenter
+  - DispatchCenter (1)
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - A
+
+SPEC CHECKSUMS:
+  A: 27f60e3cdbf82431cd86120b54c208deddb5ad3c
+  B_Category: ebe933fe19c4cd90f7b6f26b01f9069d04e5329e
+  DispatchCenter: 281b165836b00a3b5297ccc500cde82384da63fe
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+
+PODFILE CHECKSUM: 36fccdbae5f6725dc67d5a13903c57e6a9aa2ccb
+
+COCOAPODS: 1.1.1
