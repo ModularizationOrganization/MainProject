@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51182D5C1E851260006BE1A1 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51182D5B1E851260006BE1A1 /* AViewController.m */; };
 		51847F331E84CFB600B18175 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51847F321E84CFB600B18175 /* main.m */; };
 		51847F361E84CFB600B18175 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51847F351E84CFB600B18175 /* AppDelegate.m */; };
 		51847F391E84CFB600B18175 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51847F381E84CFB600B18175 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 
 /* Begin PBXFileReference section */
 		1DE7B12500A1E763110AE1D8 /* libPods-A.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-A.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51182D5A1E851260006BE1A1 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		51182D5B1E851260006BE1A1 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		51847F2E1E84CFB600B18175 /* A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51847F321E84CFB600B18175 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		51847F341E84CFB600B18175 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,9 +77,11 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		51182CEE1E84F58A006BE1A1 /* A */ = {
+		51182D591E851253006BE1A1 /* A */ = {
 			isa = PBXGroup;
 			children = (
+				51182D5A1E851260006BE1A1 /* AViewController.h */,
+				51182D5B1E851260006BE1A1 /* AViewController.m */,
 			);
 			path = A;
 			sourceTree = "<group>";
@@ -104,7 +109,7 @@
 		51847F301E84CFB600B18175 /* A */ = {
 			isa = PBXGroup;
 			children = (
-				51182CEE1E84F58A006BE1A1 /* A */,
+				51182D591E851253006BE1A1 /* A */,
 				51847F341E84CFB600B18175 /* AppDelegate.h */,
 				51847F351E84CFB600B18175 /* AppDelegate.m */,
 				51847F371E84CFB600B18175 /* ViewController.h */,
@@ -298,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51182D5C1E851260006BE1A1 /* AViewController.m in Sources */,
 				51847F391E84CFB600B18175 /* ViewController.m in Sources */,
 				51847F361E84CFB600B18175 /* AppDelegate.m in Sources */,
 				51847F331E84CFB600B18175 /* main.m in Sources */,

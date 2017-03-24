@@ -9,6 +9,6 @@ target 'A' do
   # use_frameworks!
 
 pod "Masonry"
-
+pod "B_Category"
  
 end
